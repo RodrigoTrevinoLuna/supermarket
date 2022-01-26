@@ -9,9 +9,9 @@ Pequeño sistema en donde realiza un proceso de stock ( entradas y salidas), ven
 * PHP
 * MYSQLPHP
 
-PARA PODER INGRESAR AL SISTEMA:
-USUARIO: admin
-password: admin
+# PARA PODER INGRESAR AL SISTEMA:
+* USUARIO: admin
+* password: admin
 
 * Tiene control de permisos
 
