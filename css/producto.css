@@ -1,0 +1,164 @@
+/* distribucion paneles*/
+.container-producto{
+    display: flex;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.a{
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.form{
+    width: 20%;
+    height: 100vh;
+    background: rgba(128, 128, 128, 0.26);
+
+}
+.tabla{
+    padding: 0px 15px 0px 15px;
+    height: 65%;
+}
+
+/*Panel izquierdo*/
+.titulo{
+    text-align: center;
+}
+
+.accion{
+    display: flex;
+    display: 5px;
+}
+.accion>a:first-child{
+    padding-right: 5px;
+}
+tbody>tr>td>img:hover{
+    cursor: pointer;
+}
+.container-producto{
+    width: 100vw;
+}
+
+table{
+    width: 100%;
+       border-bottom: grey 1px solid;
+       background: rgba(128, 128, 128, 0.26);
+       box-shadow: 2px 2px #888888;
+       border-radius: 5px;
+       border-collapse:collapse ;
+       height: 100%;
+   }
+   
+   .unidadN{
+       width: 12%;
+   }
+   
+   .name{
+       width: 32%;
+   }
+ 
+   th{
+       text-align: center;
+       border-right: solid 1px grey;
+       background: var(--bg-P);
+       padding: 7px;
+       color: white;
+        
+   }
+   tbody>tr>td{
+       border-right: grey 1px solid;
+       padding: 5px;
+       text-align: center;
+   }
+   .fila{
+    height: 20px;
+    width: 100%;
+}
+   tbody>.fila:hover{
+    background: rgba(128, 128, 128, 0.37);
+    color: white;
+   }
+
+   .btn-imprimir{
+       position: relative;
+   }
+
+/* Panel derecho formulario*/
+form{
+    padding: 0px 15px 0px 15px;
+}
+
+.titulo-form{
+    text-align: center;
+    padding-top: 35px;
+}
+
+form>section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    
+}
+.form>section>img{
+    width: 90px;
+    height: 90px;
+}
+input{
+        box-shadow: 2px 2px #888888;
+        border-radius: 15px;
+        height: 20px;
+        padding: 5px 0px 5px 20px;
+        background: rgba(128, 128, 128, 0.26);
+        font-size: 15px;
+        outline-color: grey;
+        border: 1.5px var(--bg-P) solid;
+}
+
+
+select{
+    box-shadow: 2px 2px #888888;
+        border-radius: 15px;
+        height: 35px;
+        padding: 5px 0px 5px 20px;
+        background: rgba(128, 128, 128, 0.26);
+        font-size: 15px;
+        outline-color: grey;
+        border: 1.5px var(--bg-P) solid;
+}
+
+button{
+    background: #18975c;
+    box-shadow: 2px 2px grey;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0px 15px 0px 15px;
+    cursor: pointer;
+    border: none;
+    height: 32px;
+    width: max-content;
+}
+.btn-newP{
+ display: flex;
+
+text-align: right;
+
+
+}
+
+
+/*scrollbar-table*/
+
+.my-custom-scrollbar {
+    position: sticky;
+    
+    overflow: auto;
+    }
+    thead tr th{ 
+        position: sticky;
+        top: 0;
+    }

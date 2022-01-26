@@ -1,0 +1,244 @@
+.columna-1{
+    width: 75%;
+    
+}
+
+.columna-2{
+    width: 25%;
+    padding: 15px;
+    background: rgba(128, 128, 128, 0.26);
+}
+
+.titulo-pedidos{
+    width: 100%;
+    text-align: center;
+}
+.columna-2>section>img{
+    width: 90px;
+    height: 90px;
+}
+.titulo-form{
+    text-align: center;
+    padding-top: 30px;
+}
+/* Estilos Carrito*/
+.datos{
+    padding: 15px 20px 0px 20px;
+}
+.producto{
+    box-shadow: 2px 2px #888888;
+    border-radius: 15px;
+    height: 20px;
+    padding: 5px 0px 5px 20px;
+    background: rgba(128, 128, 128, 0.26);
+    font-size: 15px;
+    
+    outline-color: grey;
+    border: 1.5px var(--bg-P) solid;
+}
+.clave{
+    font-size: 21px;
+    
+}
+table{
+    display: table;
+    width: 100%; 
+    border-collapse: collapse ;
+    border-bottom: grey 1px solid;
+    height: 550px;
+    
+    box-shadow: 2px 2px #888888;
+}
+.nameP{
+   width: 10%;
+   text-align: center;
+}
+.unidadN{
+   width: 12.5%;
+   text-align: center;
+}
+.unidadI{
+    width: 25%;
+    text-align: center;
+}
+thead>tr>td{
+   background: var(--bg-P);
+   padding: 8px;
+   color: white;
+   border-right: 1px solid grey;
+}
+
+tbody>tr>td{
+   border-right: grey 1px solid;
+   padding: 5px;
+   text-align: center; 
+   
+}
+.tabla{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 65%;
+    
+}
+table{
+background: rgba(128, 128, 128, 0.26);
+display: table;
+width: 100%; 
+border-collapse: collapse ;
+
+}
+
+tbody>.fila:hover{
+   background: rgba(128, 128, 128, 0.37);
+   color: white;
+}
+.P{
+    text-align: left;
+
+}
+
+.contenedor-clave{
+   padding-top: 20px;
+   padding-left: 15px;
+   padding-bottom: 7px;
+}
+
+.fila{
+height: 20px;
+width: 100%;
+}
+.fila>td:last-child{
+    display: flex;
+    justify-content: center;
+}
+.fila>td>a{
+    padding-right: 7px;
+}
+.accion{
+    border: none;
+}
+
+
+/* Realzar Pedidos*/
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+form>div{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+form>div>label{
+    width: 60px;
+}
+form>div>select{
+    width: 190px;
+    padding: 3px;
+}
+form>div>input{
+    width:187px;
+}
+form>div>section{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+form>div>.btn{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+    text-align: right;
+}
+.btn>button{
+    background: #18975c;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+.btn>button:hover{
+    cursor: pointer;
+}
+.btn>button:active{
+    background: white;
+    color: black;
+}
+
+form>p{
+    width: 100%;
+    text-align: center;
+}
+.txt-infor{
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+.division-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.readOnly:focus{
+    outline: none;
+    
+}
+.readOnly:hover{
+    cursor: default;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*scrollbar-table*/
+
+.my-custom-scrollbar {
+    position: sticky;
+    overflow: auto;
+    }
+    thead tr td{ 
+        position: sticky;
+        top: 0;
+    }
+    .tabla{
+        height: 75vh;
+    }
+
+    
+  .buscar{
+      width: 100%;
+      text-align: right;
+      position: relative;
+      right: 70px;
+      padding-bottom: 15px;
+      } 
+
+
+    
+    
+    /*
+    
+    
+<!--aqui se agregara los precios de los productos cargados en el inventario
+
+    combobox => nombre item 
+
+    clave - item - Precio Venta - Estatus (Si hay o no hay en stock)
+
+
+
+
+    Apartado de cotizaciones
+    Al dar un boton se mostrará una ventana en donde se podra elegir el nombre del producto y la cantidad que se desea adquirir
+
+    combobox => nombre del producto
+    comboBox => Cantidad de unidades a adquirir
+    opcion si tiene descuento o no  y si lo tiene mostrar cuanto
+    input => subTotal del producto cotizado
+    input => Total de la suma de productos por cotizar
+    -->
+
+
+    */

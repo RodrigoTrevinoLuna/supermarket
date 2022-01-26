@@ -1,0 +1,165 @@
+
+/*Tamaño de las cajas*/
+.container-inventario{
+ width: 100vw;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+}
+.datos{
+    width: 90%;
+    padding: 40px 15px 15px 15px;
+}
+
+/******************/
+
+
+/* Parte de DATOS */
+.input-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.input-buscar{
+    box-shadow: 2px 2px #888888;
+    border-radius: 15px;
+    height: 20px;
+    padding: 5px 0px 5px 20px;
+    background: rgba(128, 128, 128, 0.26);
+    font-size: 15px;
+    
+    outline-color: grey;
+    border: 1.5px var(--bg-P) solid;
+}
+.btn-group{
+    right: 0px;
+}
+.btn-imprimir, .btn-nProducto{
+    background: rgba(128, 128, 128, 0.26);
+    box-shadow: 2px 2px grey;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0px 15px 0px 15px;
+    cursor: pointer;
+    border: none;
+    height: 32px;
+    width: max-content;
+}
+.btn-imprimir:active, .btn-nProducto:active{
+    background: white;
+}
+
+.table-inventario{
+  width: 100%; 
+  border-bottom: 1px solid grey;
+  position: relative;
+  top: 10px;
+   
+}
+.nameP{
+   width: 40%;
+   text-align: center;
+}
+.unidadN{
+   width: 17%;
+   text-align: center;
+}
+.nameProveedor{
+    width:26%;
+    text-align: center;
+}
+thead>tr>td{
+   border-bottom: solid 1px grey;
+   background: var(--bg-P);
+   padding: 7px;
+   color: white;
+}
+
+tbody>tr>td{
+   border-right: grey 1px solid;
+   padding: 5px;
+   text-align: center;
+}
+
+tbody>.fila:hover{
+    background: rgba(128, 128, 128, 0.37);
+    color: white;
+}
+
+.P{
+    
+    text-align: left;
+
+}
+.C{
+    border-left: 1px solid grey;
+}
+
+.contenedor-clave{
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+
+
+
+/* Filtro de datos -Pre-Pedidos*/
+
+
+.titulo-filtro{
+    text-align: center;
+}
+.section-btn{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+
+.label-comboBox{
+        border-radius: 7px;
+        height: 35px;
+        padding-left: 5px;
+}
+.comboBox{
+        background: rgba(128, 128, 128, 0.26);
+        box-shadow: 2px 2px #888888;
+        border-radius: 5px 5px 5px 5px;
+        outline-color: grey;
+        padding: 5px 0px 5px 10px;
+    }
+.comboBox:focus{
+    border: 1px solid #002973;
+}
+.generar{
+        background: rgba(128, 128, 128, 0.26);
+        box-shadow: 2px 2px grey;
+        border-radius: 5px 5px 5px 5px;
+        padding: 0px 15px 0px 15px;
+        cursor: pointer;
+        border: none;
+        height: 32px;
+        width: max-content;
+}
+
+.generar:active{
+    background: white;
+}
+.table-filtro{
+    border-bottom: 1px solid grey;
+    position: relative;
+    top: 15px;
+}
+
+tbody>tr>td>img{
+    width: 30px;
+}
+.menos>img{
+    visibility: initial;
+    background: transparent;
+}
+.menos{
+       visibility: collapse;
+}
+.menos:hover{
+cursor: pointer;
+}
+   

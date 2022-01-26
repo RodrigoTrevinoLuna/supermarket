@@ -1,0 +1,31 @@
+.alert-success{
+    background: green;
+    color: white;
+    
+    padding: 5px;
+    padding-left: 40px;
+    
+}
+.alert-info{
+    background: rgba(196, 131, 9, 0.83);
+    color: white;
+    
+    padding: 5px;
+    padding-left: 40px;
+    
+}
+.alert-warning{
+    background: rgba(255, 0, 0, 0.823);
+    color: white;
+    
+    padding: 5px;
+    padding-left: 40px;
+}
+
+.alerta-container{
+   
+    
+}
+
+
+

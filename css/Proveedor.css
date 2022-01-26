@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.columna-1{
+    width: 100%;
+}
+
+/*Tabla Proveedor*/ 
+.datos{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+table{
+       width: 90%; 
+       border-bottom: grey 1px solid;
+       background: rgba(128, 128, 128, 0.26);
+       box-shadow: 2px 2px #888888;
+       border-collapse:collapse ;
+       height: 100%;
+   }
+   .nameP{
+       width: 30%;
+   }
+   .dat{
+       width: 17.5%;
+   }
+
+   .cla{
+    width: 5.5%;
+}
+   thead>tr>th{
+       text-align: center;
+       border-right: solid 1px grey;
+       background: #002973;
+       padding: 7px;
+       color: white;
+       
+   }
+   tbody>tr>td{
+       border-right: grey 1px solid;
+       padding: 5px;
+       text-align: center;
+    }
+
+   tbody>tr:hover{
+    background: rgba(128, 128, 128, 0.37);
+    color: white;
+   }
+
+   .P{
+    height: 20px;
+    text-align: left;
+   }
+   .accion{
+    display: flex;
+    padding: 5px;
+}
+.accion>a:first-child{
+    padding-right: 5px;
+}
+.a{
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+/*Registro de proveedor*/ 
+
+.textbox{
+    padding: 1px;
+}
+
+button{
+    width: 15%;
+    background: #002973;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    background: white;
+    padding: 10px;
+    box-shadow:  2px 2px 2px 2px #CBCCCD;
+}
+.seccion1{
+    padding: 10px;
+    width: min-content;
+}
+.seccion2{
+    padding: 10px;
+    width: min-content;
+}
+.seccion3{
+    padding: 10px;
+    width: min-content;
+}
+form{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 500px;
+
+}
+/*scrollbar-table*/
+
+.my-custom-scrollbar {
+    position: sticky;
+    
+    overflow: auto;
+    }
+    thead tr th{ 
+        position: sticky;
+        top: 0;
+    }
+
+    .form-registro{
+        display: flex;
+    justify-content: center;
+    padding: 15px;
+    }

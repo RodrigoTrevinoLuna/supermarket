@@ -1,0 +1,124 @@
+  
+.btn-modal {
+    cursor: pointer;
+    background: red;
+    border: none;
+    outline: none;
+    
+  }  
+  .open-modal {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  
+  
+  /* MODAL
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.201);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+    z-index: 10000;
+    
+  }
+  
+  .modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+
+  }
+  
+  .modal-dialog {
+    position: relative;
+    max-width: 800px;
+    max-height: 80vh;
+    border-radius: 5px;
+    background: white;
+    overflow: auto;
+    cursor: default;
+  }
+  
+  .modal-content {
+    padding: 1rem;
+  }
+  
+  .modal-header{
+    background:#002973;;
+    color: white;
+  }
+  
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .close-modal {
+    font-size: 10px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 40px;
+    color: white;
+    border-radius: 5px;
+  }
+  .modal-footer{
+    padding: 7px;
+    text-align: right;
+  }
+  .modal-footer>button{
+    background: #149459;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+.modal-footer>button:active{
+  background: white;
+}
+  
+  /* Formulario-modal
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ .modal-content>div>label{
+   padding-right: 15px;
+   
+ }
+
+ .modal-content>div{
+   width:100%;
+   padding: 4px;
+   display: flex;
+   justify-content: space-between;
+ }
+ .modal-content>div>input:focus{
+   outline: none;
+   border: 1px solid #002973;
+   
+ }
+
+ .modal-content>div>textarea{
+  max-width: 169px;
+  min-width: 169px;
+  min-height: 20px;
+  
+}
+.modal-content>div>input{
+  max-width: 169px;
+  min-width: 169px;
+  
+}

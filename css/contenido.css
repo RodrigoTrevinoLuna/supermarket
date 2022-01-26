@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --azulRey:rgb(4, 4, 77);
+        /* LAGOON*/
+    --PrimerColor:#26798E;
+    --SegColor:#63CAA7 ;
+    --TerColor:#FFC172;
+    --CuarColor:#FFE3B3;
+    /* PALM*/
+    --bg-P:#002973;
+    --bg-S:#155db1;
+    --bg-T:#2196f3;
+    --bg-C:#FBE4A3;
+    --bg-Q:#b9ffff;
+
+}
+/*
+body{
+    background:#d3cece46;;
+}
+*/
+/*Posicion de los componentes*/
+.container{
+    display: flex;
+    height: 100vh;
+}
+    .menuBar{
+        background: var(--bg-P);
+        border-radius: 0px 0px 12px 0px;
+        width: 4%;
+        color: var(--bg-T);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 3px 3px #888888;
+    }
+
+    /*Estilos del titulo*/
+    .titulo{
+        text-align: center;
+        padding-left: 20px;
+        background: #002973;
+        width: max-content;
+        color: white;
+        border-radius: 0px 12px 500px 0px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-right: 37px;
+        box-shadow: 0px 10px  #888888;
+        }
+
+/*Estilos MENUBAR*/
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 60vh;
+        padding-top:50px;
+
+    }
+    .principal>a>img, .secundario>a>img{
+        width: 20px;
+        padding: 7px;
+        background: whitesmoke;
+        border-radius: 5px;
+        border: #888888 1px solid;
+
+    }
+    .principal>a, .secundario>a{
+        width: 5px;
+        padding-left: 7px;
+        
+    }
+    .principal>a>img:hover, .secundario>a>img:hover{
+        background: #888888;
+        border: black 1px solid;
+        
+    }
+    .principal>hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .secundario{
+        padding-bottom: 7px;
+    }
+
+a{
+    display: flex;
+}
+
+a p{
+    display: none;
+    position: absolute;
+    left: 50px;
+}
+a:hover p{
+    display: block;
+    z-index: 1;
+
+    background: #888888;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border:1px solid white;
+}
+                /*Cambiar color a blanco: filtro botones*/
+                .principal a>img:hover {
+                    filter: invert(100%);
+                    
+                }
+                .secundario a{
+                    width: 100vh;
+                }
+                .secundario a>img:hover{
+                    filter: invert(100%);
+                }
+
+/* Posicion de los elementos Para las Plantillas 
+                NO MOVERLE AL CODIGO
+                MOVER-CODIGO == CAGADA XD
+                |   |  |   |
+                V   V  V   V  
+*/
+
+.contenedor-secundario{
+    display: flex;
+    width: 100vw;
+}
+
+.btn-imprimir{
+    
+    text-decoration: none;
+ background: #002973;
+ color: white;
+}
+.btn-imprimir:hover{
+    cursor: pointer;
+}
+.btn-imprimir:active{
+    background: white;
+    color: black;
+}

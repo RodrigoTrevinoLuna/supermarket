@@ -1,0 +1,226 @@
+/*Posicion de los componentes*/
+.container{
+    display: flex;
+}
+
+.container-secundario{
+    display: flex;
+    width: 100vw;
+}
+.listado-venta{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+} 
+.tabla{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 65%;
+    
+    
+}
+
+.listado-venta>.tabla>table{
+    border-bottom: grey 1px solid;
+    height: 100%;
+    
+    box-shadow: 2px 2px #888888;
+    
+    
+    
+    
+}
+
+.interaccion-venta{
+    width: 20%;
+    background: grey;
+    padding: 15px;
+    width: 20%;
+    border-radius: 20px 0px 0px 20px;
+    color: white;
+}   
+
+
+
+/* Estilos Carrito*/
+
+    .producto{
+        box-shadow: 2px 2px #888888;
+        border-radius: 15px;
+        height: 20px;
+        padding: 5px 0px 5px 20px;
+        background: rgba(128, 128, 128, 0.26);
+        font-size: 15px;
+        
+        outline-color: grey;
+        border: 1.5px var(--bg-P) solid;
+    }
+    .clave{
+        font-size: 21px;
+        
+    }
+   table{
+        display: table;
+        width: 100%; 
+        border-collapse: collapse ;
+   }
+   .nameP{
+       width: 50%;
+   }
+   .unidadN{
+       width: 12.5%;
+       text-align: center;
+   }
+   .unidadT{
+       text-align: center;
+       border-right: none;
+   }
+   thead>tr>td{
+       background: var(--bg-P);
+       padding: 8px;
+       color: white;
+       border-right: 1px solid grey;
+   }
+
+   tbody>tr>td{
+       border-right: grey 1px solid;
+       padding: 5px;
+       text-align: center; 
+       
+   }
+   table{
+    background: rgba(128, 128, 128, 0.26);
+    
+    
+    
+   }
+
+   tbody>.fila:hover{
+       background: rgba(128, 128, 128, 0.37);
+       color: white;
+   }
+   .P{
+        text-align: left;
+
+   }
+
+   .contenedor-clave{
+       padding-top: 20px;
+       padding-left: 15px;
+       padding-bottom: 7px;
+   }
+
+.fila{
+    height: 20px;
+    width: 100%;
+}
+
+/* inputs resultado*/
+.resultados{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    padding-right: 15px;
+}
+
+.resultados>section{
+    padding-right: 5px;
+}
+.resultados>section>label{
+    padding-right: 5px;
+}
+.resultados>section>input{
+    box-shadow: 2px 2px #888888;
+    width: 115px;
+    height: 20px;
+    background: rgba(128, 128, 128, 0.26);
+    text-align: center;
+    
+    outline: none;
+    border: none;
+}
+
+/*Interaccion Venta*/
+.txtTitulo{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.textboxTotal{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 45px;
+    border-radius:15px ;
+}
+.opciones{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.opciones>button{
+    width: 50%;
+    height: 115px;
+    
+    
+}
+
+
+
+
+.opciones>.btn-opcion:hover{
+    background: rgba(146, 145, 145, 0.541);
+    color: white;
+    border: white 1.5px solid;
+    cursor: pointer;
+}
+.btn-opcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.opciones>button>img{
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+}
+.logo{
+    width: 100%;
+    height: 140px;
+    margin: 3px;
+    border-radius: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*scrollbar-table*/
+
+.my-custom-scrollbar {
+    position: sticky;
+    overflow: auto;
+    }
+    thead tr td{ 
+        position: sticky;
+        top: 0;
+    }
+
+
+
+/*Estilos modal Tabla*/
+.tabla-modal{
+    height: 65%;
+    
+}
+
+.my-custom-scrollbar-modal{
+    position: sticky;
+    overflow: auto;
+    }
+    header{ 
+        position: sticky;
+        top: 0;
+    }
