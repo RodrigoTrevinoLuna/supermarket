@@ -1,4 +1,23 @@
-# Tienda-Proyecto
+# SuperMarket
+
+Pequeño sistema en donde realiza un proceso de stock ( entradas y salidas), ventas y fecha de la venta.
+
+# Utiliza:
+*HTML5
+*CSS
+*JS
+*PHP
+*MYSQLPHP
+
+PARA PODER INGRESAR AL SISTEMA:
+USUARIO: admin
+password: admin
+
+*Tiene control de permisos
+
+
+
+
 
 Interfaces del sistema
 Producto
