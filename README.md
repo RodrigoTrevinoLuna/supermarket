@@ -7,7 +7,7 @@ Pequeño sistema en donde realiza un proceso de stock ( entradas y salidas), ven
 * CSS
 * JS
 * PHP
-* MYSQLPHP
+* PHPmySql
 
 # PARA PODER INGRESAR AL SISTEMA:
 * USUARIO: admin
