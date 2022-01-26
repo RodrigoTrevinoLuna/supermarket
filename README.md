@@ -13,7 +13,7 @@ PARA PODER INGRESAR AL SISTEMA:
 USUARIO: admin
 password: admin
 
-*Tiene control de permisos
+* Tiene control de permisos
 
 
 
